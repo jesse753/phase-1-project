@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #message-form {
+    margin-bottom: 20px;
+  }
+  
+  #message-text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message .text {
+    margin-bottom: 10px;
+  }
+  
+  .message .likes {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .message .like-button {
+    cursor: pointer;
+  }
+  
