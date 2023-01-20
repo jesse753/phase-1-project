@@ -1,38 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-  }
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color:blue;
+  text-decoration: none;
+}
+div {
+  padding: 2rem;
+}
+
+#message-form {
+  margin-bottom: 20px;
+}
+
+#message-text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.message {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.message .input {
+  margin-bottom: 10px;
+}
+
+.message .likes {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.message .like-button {
+  cursor: pointer;
+
+
   
-  #message-form {
-    margin-bottom: 20px;
-  }
   
-  #message-text {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-  }
   
-  .message {
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .message .text {
-    margin-bottom: 10px;
-  }
-  
-  .message .likes {
-    font-size: 0.8em;
-    color: #888;
-  }
-  
-  .message .like-button {
-    cursor: pointer;
-  }
   

@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Simple Social Media App</title>
     <link rel="stylesheet" type="text/css" href="index.CSS">
   </head>
   <body>
     <h1>Simple Social Media App</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
     <div class="container">
     <form id="message-form">
-      <textarea id="message-text" placeholder="Enter your message"></textarea>
-      <button type="submit">Post</button>
+      <textarea id="message-input" placeholder="Enter your message"></textarea>
+      <button id="submit-button">post</button>
     </form>
-    <div class="messages"></div>
-    <script src=""></script>
+    <div id="tweet-container"></div>
+    <script src="Index.js"></script>
     </div>
   </body>
 </html>
